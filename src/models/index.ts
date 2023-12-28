@@ -4,6 +4,10 @@ export interface IPathElement {
     children: string
 }
 
+export interface ISlider {
+    array: any[]
+}
+
 export interface AppRouter {
     path: string;
     component: React.ComponentType;
