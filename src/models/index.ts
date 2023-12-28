@@ -1,5 +1,9 @@
 import React from "react";
 
+export interface AppRouter {
+    path: string;
+    component: React.ComponentType;
+}
 export interface IHeader {
     background: string
 }
