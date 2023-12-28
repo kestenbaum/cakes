@@ -21,7 +21,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: new_cakes
+            img: new_cakes,
+            tag: "Новинки"
         },
         {
             id: 2,
@@ -32,7 +33,8 @@ export const data = {
             weight: 1500,
             count: 35,
             manufacturer: "Ukraine",
-            img: new_cakes2
+            img: new_cakes2,
+            tag: "Новинки"
         },{
             id: 3,
             name: "Cakes 3",
@@ -42,7 +44,8 @@ export const data = {
             weight: 500,
             count: 5,
             manufacturer: "Ukraine",
-            img: new_cakes3
+            img: new_cakes3,
+            tag: "Новинки"
         },{
             id: 4,
             name: "Cakes 4",
@@ -52,7 +55,8 @@ export const data = {
             weight: 1500,
             count: 20,
             manufacturer: "Ukraine",
-            img: new_cakes4
+            img: new_cakes4,
+            tag: "Новинки"
         },
     ],
     sets: [
@@ -65,7 +69,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: set_1
+            img: set_1,
+            tag: "Наборы"
         },{
             id: 2,
             name: "Set 2",
@@ -75,7 +80,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: set_2
+            img: set_2,
+            tag: "Наборы"
         },{
             id: 3,
             name: "Set 3",
@@ -85,7 +91,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: set_3
+            img: set_3,
+            tag: "Наборы"
         },{
             id: 4,
             name: "Set 4",
@@ -95,7 +102,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: set_4
+            img: set_4,
+            tag: "Наборы"
         },
     ],
     cakes: [
@@ -108,7 +116,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: cake_1
+            img: cake_1,
+            tag: "Торты"
         },{
             id: 2,
             name: "Cake 2",
@@ -118,7 +127,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: cake_2
+            img: cake_2,
+            tag: "Торты"
         },{
             id: 3,
             name: "Cake 3",
@@ -128,7 +138,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: cake_3
+            img: cake_3,
+            tag: "Торты"
         },{
             id: 4,
             name: "Cake 4",
@@ -138,7 +149,8 @@ export const data = {
             weight: 2500,
             count: 25,
             manufacturer: "Ukraine",
-            img: cake_4
+            img: cake_4,
+            tag: "Торты"
         },
     ]
 }
