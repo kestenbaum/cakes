@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 6px;
+}
+
+.block {
+    display: flex;
+    width: 12px;
+    height: 7px;
+    background-color: #CA8B81;
+}
+
+.link {
+    font-family: Happy Monkey, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+    margin: 20px 0;
+}

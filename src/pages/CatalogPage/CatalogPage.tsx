@@ -6,13 +6,14 @@ import {data} from "../../data";
 
 import style from "../CatalogPage/CatalogPage.module.css"
 import {Path} from "../../helper/path.ts";
+import PathLink from "../../components/Path/PathLInk/PathLink.tsx";
+import {Link} from "react-router-dom";
 
 const CatalogPage:FC = () => {
     const path = window.location.pathname
     const getSetsCakes = data.sets
     const getNewsCakes = data.new_cakes
     const getCakes = data.cakes
-    const getPath = Path["/catalog"]
 
     return (
         <div>
@@ -20,6 +21,8 @@ const CatalogPage:FC = () => {
             <div className={style.wrapper}>
                 <div className="container">
                     <div className={style.catalog}>
+                        <PathLink/>
+                        <Link to={"/catalog/test"}>Test</Link>
                         <div>
                             <div className={style.block_slider}>
                                 <h2 className={style.title}>{getSetsCakes[0].tag}</h2>
