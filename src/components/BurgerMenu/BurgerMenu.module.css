@@ -1,0 +1,10 @@
+.wrapper {
+    display: none;
+}
+
+@media all and (max-width: 835px) {
+    .wrapper {
+        display: flex;
+        cursor: pointer;
+    }
+}

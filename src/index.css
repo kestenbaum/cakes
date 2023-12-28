@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

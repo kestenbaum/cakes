@@ -1,0 +1,21 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 103px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid  #FF5151;
+    background: #FFF;
+    cursor: pointer;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    color: #CA8B81;
+}
+
+.btn:disabled {
+    color: #6B6B6B;
+    border-color: #6B6B6B;
+}
