@@ -1,0 +1,10 @@
+.footer {
+    background-color: #CA8B81;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+}
