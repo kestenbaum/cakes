@@ -1,4 +1,4 @@
-import {AppRouter} from "../../models";
+import {AppRouter} from "../models";
 
 import {MainPage, CatalogPage} from "../pages"
 

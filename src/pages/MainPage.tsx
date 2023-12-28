@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
-import Header from "../Header/Header.tsx";
-import FirstScreen from "../FirstScreen/FirstScreen.tsx";
+import Header from "../components/Header/Header.tsx";
+import FirstScreen from "../components/FirstScreen/FirstScreen.tsx";
 
 const MainPage:FC = () => {
     const path = window.location.pathname

@@ -3,7 +3,7 @@ import {FC} from "react";
 import Logo from "../Logo/Logo.tsx";
 import {Menu, Navigate} from "./index.ts";
 import style from "./Header.module.css"
-import BurgerMenu from "../BurgerMenu/BurgerMenu.tsx";
+import BurgerMenu from "./BurgerMenu/BurgerMenu.tsx";
 import {IHeader} from "../../models";
 
 

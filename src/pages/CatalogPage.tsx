@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import Header from "../Header/Header.tsx";
+import Header from "../components/Header/Header.tsx";
 
 const CatalogPage:FC = () => {
     const path = window.location.pathname
