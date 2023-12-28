@@ -5,6 +5,7 @@
     width: 100%;
     background: #CA8B81;
     background: transparent;
+    z-index: 9999;
 }
 
 .wrapper {
