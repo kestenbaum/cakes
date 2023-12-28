@@ -57,6 +57,39 @@ export const data = {
             manufacturer: "Ukraine",
             img: new_cakes4,
             tag: "Новинки"
+        },{
+            id: 5,
+            name: "Cakes 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 1500,
+            discount: 10,
+            weight: 1500,
+            count: 20,
+            manufacturer: "Ukraine",
+            img: new_cakes4,
+            tag: "Новинки"
+        },{
+            id: 6,
+            name: "Cakes 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 1500,
+            discount: 10,
+            weight: 1500,
+            count: 20,
+            manufacturer: "Ukraine",
+            img: new_cakes4,
+            tag: "Новинки"
+        },{
+            id: 7,
+            name: "Cakes 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 1500,
+            discount: 10,
+            weight: 1500,
+            count: 20,
+            manufacturer: "Ukraine",
+            img: new_cakes4,
+            tag: "Новинки"
         },
     ],
     sets: [
@@ -104,6 +137,39 @@ export const data = {
             manufacturer: "Ukraine",
             img: set_4,
             tag: "Наборы"
+        },{
+            id: 5,
+            name: "Set 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: set_4,
+            tag: "Наборы"
+        },{
+            id: 6,
+            name: "Set 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: set_4,
+            tag: "Наборы"
+        },{
+            id: 7,
+            name: "Set 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: set_4,
+            tag: "Наборы"
         },
     ],
     cakes: [
@@ -142,6 +208,39 @@ export const data = {
             tag: "Торты"
         },{
             id: 4,
+            name: "Cake 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: cake_4,
+            tag: "Торты"
+        },{
+            id: 5,
+            name: "Cake 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: cake_4,
+            tag: "Торты"
+        },{
+            id: 6,
+            name: "Cake 4",
+            description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
+            price: 2500,
+            discount: 10,
+            weight: 2500,
+            count: 25,
+            manufacturer: "Ukraine",
+            img: cake_4,
+            tag: "Торты"
+        },{
+            id: 7,
             name: "Cake 4",
             description: "Кусок размораживать при комнатной температуре +20/+25°С -15-25 мин., Целый торт при температуре +4°С (+/-2°С) - 6-10 ч.",
             price: 2500,
