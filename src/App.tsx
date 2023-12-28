@@ -1,11 +1,9 @@
-import Header from "./components/Header/Header.tsx";
-import FirstScreen from "./components/FirstScreen/FirstScreen.tsx";
+import AppRouter from "./components/AppRouter.tsx";
 
 function App() {
   return (
     <>
-      <Header/>
-      <FirstScreen/>
+        <AppRouter/>
     </>
   )
 }
