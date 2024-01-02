@@ -5,7 +5,8 @@ export interface IPathElement {
 }
 
 export interface ISlider {
-    array: any[]
+    array: any[],
+    path?: string
 }
 
 export interface AppRouter {
