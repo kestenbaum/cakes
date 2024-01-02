@@ -22,7 +22,7 @@ export const data = {
             count: 25,
             manufacturer: "Ukraine",
             img: new_cakes,
-            tag: "Новинки"
+            tag: "Новинки",
         },
         {
             id: 2,
@@ -254,6 +254,21 @@ export const data = {
     ]
 }
 
+export const sliderPage = [
+    {
+        id: 0,
+        path: "/catalog/news",
+        array: data.new_cakes
+    },{
+        id: 1,
+        path: "/catalog/sets",
+        array: data.sets
+    },{
+        id: 2,
+        path: "/catalog/cakes",
+        array: data.cakes
+    }
+]
 export const footerNavigateData = {
     catalog: [
         {
