@@ -5,13 +5,18 @@ import {Controller, EffectCoverflow, Navigation} from "swiper/modules";
 import style from "./Slider.module.css";
 import 'swiper/css';
 import {ISlider} from "../../models";
+import {Link} from "react-router-dom";
 
 
-const Slider:FC<ISlider> = ({array}) => {
+const Slider:FC<ISlider> = ({array, path}) => {
     return (
         <div>
             <div className={style.block_slider}>
-                <h2 className={style.title}>{array[0].tag}</h2>
+                <Link
+                    to={`${path}`}
+                    className={style.title}>
+                    {array[0].tag}
+                </Link>
                 <div className={style.block_arrow}>
                     <svg className="prev" xmlns="http://www.w3.org/2000/svg" width="35" height="37" viewBox="0 0 35 37" fill="none">
                         <path d="M33.0762 18.5406V25.4496C33.0762 34.0276 27.0017 37.5402 19.5688 33.2513L13.572 29.7968L7.57515 26.3423C0.142198 22.0533 0.142198 15.0279 7.57515 10.7389L13.572 7.28445L19.5688 3.82997C27.0017 -0.459012 33.0762 3.05369 33.0762 11.6317V18.5406Z" stroke="black" stroke-width="2.91108" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
