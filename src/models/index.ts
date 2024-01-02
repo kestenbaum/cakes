@@ -18,3 +18,10 @@ export interface IHeader {
 }
 export interface IButton extends
     React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>, React.AriaAttributes  {}
+
+export interface IButtonContact extends
+    React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>, React.AriaAttributes  {
+    svg?: any
+    title?: string
+    store?: string
+}

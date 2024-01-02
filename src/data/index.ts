@@ -253,3 +253,72 @@ export const data = {
         },
     ]
 }
+
+export const footerNavigateData = {
+    catalog: [
+        {
+            title: "Каталог продукции",
+            link: "/",
+            id: 0,
+        },
+        {
+            title: "Наборы",
+            link: "/",
+            id: 1,
+        },
+        {
+            title: "Акции",
+            link: "/",
+            id: 2,
+        },
+        {
+            title: "Новинки",
+            link: "/",
+            id: 3,
+        },
+    ],
+    store: [
+        {
+            title: "О магазине",
+            link: "/",
+            id: 0,
+        },
+        {
+            title: "Отзывы",
+            link: "/",
+            id: 1,
+        },
+        {
+            title: "Видео",
+            link: "/",
+            id: 2,
+        },
+        {
+            title: "Вопросы/ответы",
+            link: "/",
+            id: 3,
+        },
+    ],
+    client: [
+        {
+            title: "Для покупателей",
+            link: "/",
+            id: 0,
+        },
+        {
+            title: "Оплата",
+            link: "/",
+            id: 1,
+        },
+        {
+            title: "Как заказать",
+            link: "/",
+            id: 2,
+        },
+        {
+            title: "Доставка",
+            link: "/",
+            id: 3,
+        },
+    ],
+};

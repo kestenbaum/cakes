@@ -2,9 +2,10 @@ import {FC} from "react";
 
 import Logo from "../Logo/Logo.tsx";
 import {Menu, Navigate} from "./index.ts";
-import style from "./Header.module.css"
 import BurgerMenu from "../UI/BurgerMenu/BurgerMenu.tsx";
 import {IHeader} from "../../models";
+
+import style from "./Header.module.css"
 
 
 const Header:FC<IHeader> = ({background}) => {
