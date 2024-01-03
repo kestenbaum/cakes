@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #000;
+    font-family: Prata, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.text {
+    color: #000;
+    font-family: Quattrocento, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.packs {
+    display: flex;
+    flex-direction: column;
+}
