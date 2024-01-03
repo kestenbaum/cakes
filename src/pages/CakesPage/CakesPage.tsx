@@ -7,6 +7,7 @@ import PathLink from "../../components/Path/PathLInk/PathLink.tsx";
 
 import style from "./CakesPage.module.css"
 import {data} from "../../data";
+import Dropdown from "../../components/Filters/Dropdown/Dropdown.tsx";
 const CakesPage:FC = () => {
     const path = window.location.pathname
 
@@ -18,6 +19,7 @@ const CakesPage:FC = () => {
                     <section className={style.page}>
                         <PathLink/>
                         <h1 className={style.title}>Торты</h1>
+                        <Dropdown/>
                         <div className={style.cakes}>
                             {data.cakes.map(cake => {
                                 return (
