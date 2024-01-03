@@ -1,0 +1,32 @@
+.wrapper {
+    padding-top: 90px;
+    min-height: 80vh;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.title {
+    color: #000;
+    font-family: Prata, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 66px;
+}
+
+.new {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+}
