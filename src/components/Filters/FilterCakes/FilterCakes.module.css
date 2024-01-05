@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    background: #FFFFFF;
+    gap: 11px;
+    padding: 20px;
 }
 
 .block {
@@ -10,26 +13,63 @@
 }
 
 .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     color: #000;
     font-family: Prata, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 }
 
-.text {
+.label {
+    display: flex;
+    align-items: center;
     color: #000;
     font-family: Quattrocento, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
-    cursor: pointer;
+    margin-bottom: 11px;
 }
 
 .packs {
     display: flex;
     flex-direction: column;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: 61px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: .5px solid black;
+}
+
+.cost {
+    color:  #000;
+    font-family: Happy Monkey, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

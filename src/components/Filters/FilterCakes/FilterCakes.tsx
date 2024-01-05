@@ -1,72 +1,41 @@
 import {FC, useState} from "react";
 
+import Checkbox from "../../UI/Checkbox/Checkbox.tsx";
 import style from "./FilterCakes.module.css";
+import {Button} from "../../UI/Buttons/Base/Button.tsx";
 const FilterCakes:FC = () => {
-    const [checkboxes, setCheckboxes] = useState({
-        checkbox1: false,
-        checkbox2: false,
-        checkbox3: false,
-        checkbox4: false,
-    });
 
-    const handleCheckboxChange = (checkboxName:keyof typeof checkboxes) => {
-        setCheckboxes((prevCheckboxes) => ({
-            ...prevCheckboxes,
-            [checkboxName]: !prevCheckboxes[checkboxName],
-        }));
-    };
+    const [checkbox, setCheckbox] = useState<string[]>(
+        ["Любой", "Небольшой(до 1кг)", "Средний(1-2кг)", 'Большой(от 2кг)']
+    )
 
     return (
         <div className={style.wrapper}>
             <h3 className={style.title}>Фильтры</h3>
             <div className={style.block}>
-                <span className={style.text}>Вес упаковки </span>
-                <label
-                    className={style.text}
-                >
-                    <input
-                        type="checkbox"
-                        checked={checkboxes.checkbox1}
-                        onChange={() => handleCheckboxChange('checkbox1')}
-                    />
-                    Любой
-                </label>
-
-                <label
-                    className={style.text}
-                >
-                    <input
-                        type="checkbox"
-                        checked={checkboxes.checkbox2}
-                        onChange={() => handleCheckboxChange('checkbox2')}
-                    />
-                    Небольшой(до 1кг)
-                </label>
-
-                <label
-                    className={style.text}
-                >
-                    <input
-                        type="checkbox"
-                        checked={checkboxes.checkbox3}
-                        onChange={() => handleCheckboxChange('checkbox3')}
-                    />
-                    Средний(1-2кг)
-                </label>
-
-                <label
-                    className={style.text}
-                >
-                    <input
-                        type="checkbox"
-                        checked={checkboxes.checkbox4}
-                        onChange={() => handleCheckboxChange('checkbox4')}
-                    />
-                    Большой(от 2кг)
-                </label>
+                <span className={style.label}>Вес упаковки </span>
+                {checkbox.map(checkbox => <Checkbox children={checkbox} /> )}
             </div>
             <h3 className={style.title}>Цена</h3>
-
+            <div className={style.price}>
+                <div className={style.box}>
+                    <span className={style.cost}>39</span>
+                </div>
+                <div className={style.box}>
+                    <span className={style.cost}>65263</span>
+                </div>
+            </div>
+             <input className={style.test}
+                type={"range"}
+                min={0}
+                max={1000}
+             />
+            <div
+                className={style.navigate}
+            >
+                <Button>Применить</Button>
+                <Button>Очистить</Button>
+            </div>
         </div>
     );
 };
