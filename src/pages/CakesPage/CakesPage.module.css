@@ -31,3 +31,16 @@
     height: 280px;
     cursor: pointer;
 }
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+@media all and (max-width: 560px) {
+    .filter {
+        display: none;
+    }
+}
