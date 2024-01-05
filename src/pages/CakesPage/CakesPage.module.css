@@ -1,6 +1,7 @@
 .wrapper {
     padding-top: 90px;
     min-height: 80vh;
+    background: #FFEBF0;
 }
 
 .page {
@@ -21,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    margin-bottom: 66px;
+    padding-bottom: 66px;
 }
 
 .cake {
@@ -29,4 +30,17 @@
     width: 280px;
     height: 280px;
     cursor: pointer;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+@media all and (max-width: 560px) {
+    .filter {
+        display: none;
+    }
 }

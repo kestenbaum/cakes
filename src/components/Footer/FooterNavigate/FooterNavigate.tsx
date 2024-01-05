@@ -6,7 +6,6 @@ import style from "./FooterNavigate.module.css"
 
 
 const FooterNavigate: FC = () => {
-
     return (
         <div className={style.wrapper}>
             <ul
