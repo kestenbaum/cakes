@@ -7,6 +7,8 @@ import Footer from "../../components/Footer/Footer.tsx";
 
 import {data} from "../../data";
 import style from "./NewsCakes.module.css";
+import Dropdown from "../../components/Filters/Dropdown/Dropdown.tsx";
+import FilterCakes from "../../components/Filters/FilterCakes/FilterCakes.tsx";
 
 
 const NewsCakes:FC = () => {
@@ -20,17 +22,23 @@ const NewsCakes:FC = () => {
                     <section className={style.page}>
                         <PathLink/>
                         <h1 className={style.title}>Новинки</h1>
-                        <div className={style.news}>
-                            {data.new_cakes.map(cake => {
-                                return (
-                                    <Link
-                                        to={"/"}
-                                        key={cake.id}
-                                        className={style.new}>
-                                        <img src={cake.img} alt={cake.description}/>
-                                    </Link>
-                                );
-                            })}
+                        <Dropdown/>
+                        <div className={style.block}>
+                            <div className={style.news}>
+                                {data.new_cakes.map(cake => {
+                                    return (
+                                        <Link
+                                            to={"/"}
+                                            key={cake.id}
+                                            className={style.new}>
+                                            <img src={cake.img} alt={cake.description}/>
+                                        </Link>
+                                    );
+                                })}
+                            </div>
+                            <div className={style.filter}>
+                                <FilterCakes/>
+                            </div>
                         </div>
                     </section>
                 </div>
