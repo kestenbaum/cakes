@@ -8,14 +8,18 @@ import ProductDescription from "./ProductDescription/ProductDescription.tsx";
 import ProductTitle from "./ProductTitle/ProductTitle.tsx";
 
 import style from "./Product.module.css"
+import {useParams} from "react-router-dom";
 
 const Product:FC = () => {
+    const {id} = useParams()
+    console.log(id)
     return (
         <div className={style.wrappper}>
             <div className={style.block}>
                 <img src={testimg} alt="img" className={style.img}/>
                 <div className={style.description}>
                     <ProductTitle children={"ТОРТ ОСЕННИЙ С ИНЖИРОМ "}/>
+                    {id}
                     <Rating/>
                     <ProductPrice/>
                     <ProductCounter/>
