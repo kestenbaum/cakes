@@ -1,6 +1,6 @@
 import {AppRouter} from "../models";
 
-import {MainPage, CatalogPage, Test, CakesPage, SetsPage, NewsCakes} from "../pages"
+import {MainPage, CatalogPage, Test, CakesPage, SetsPage, NewsCakes, ProductPage} from "../pages"
 
 export enum RouterNames {
     MAIN_PAGE = '/',
@@ -9,6 +9,7 @@ export enum RouterNames {
     CAKES_PAGE = '/catalog/cakes',
     SETS_PAGE = '/catalog/sets',
     NEWS_CAKES = '/catalog/news',
+    PRODUCT_PAGE = '/product'
 }
 
 export const PrivateRouter: AppRouter[] = [
@@ -18,4 +19,5 @@ export const PrivateRouter: AppRouter[] = [
     {path: RouterNames.CAKES_PAGE, component: CakesPage, title: "Торты"},
     {path: RouterNames.SETS_PAGE, component: SetsPage, title: "Наборы"},
     {path: RouterNames.NEWS_CAKES, component: NewsCakes, title: "Новинки"},
+    {path: RouterNames.PRODUCT_PAGE, component: ProductPage, title: "Product"},
 ]
