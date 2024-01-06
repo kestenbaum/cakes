@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 import testimg from "../../assets/cakes/image 12.png"
-import {Button} from "../UI/Buttons/Base/Button.tsx";
 
 import style from "./Product.module.css"
 import ProductTitle from "./ProductTitle/ProductTitle.tsx";
 import {Rating} from "react-simple-star-rating";
 import ProductPrice from "./ProductPrice/ProductPrice.tsx";
+import ProductCounter from "./ProductCounter/ProductCounter.tsx";
 
 const Product:FC = () => {
     return (
@@ -16,10 +16,7 @@ const Product:FC = () => {
                    <ProductTitle children={"ТОРТ ОСЕННИЙ С ИНЖИРОМ "}/>
                     <Rating/>
                     <ProductPrice/>
-                    <div className={style.block1}>
-                        <div>counter</div>
-                        <Button>В корзину</Button>
-                    </div>
+                    <ProductCounter/>
                     <div className={style.block2}>
                         <div className={style.block3}>
                             <span>Вес</span>
