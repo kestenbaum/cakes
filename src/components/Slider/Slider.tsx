@@ -57,12 +57,14 @@ const Slider:FC<ISlider> = ({array, path}) => {
                                 justifyContent: "center"
                             }}
                         >
-                            <img
-                                src={item.img}
-                                alt={item.name}
-                                width={220}
-                                height={220}
-                            />
+                           <Link to={String(item.id)}>
+                               <img
+                                   src={item.img}
+                                   alt={item.name}
+                                   width={220}
+                                   height={220}
+                               />
+                           </Link>
                         </SwiperSlide>
                     })}
                 </div>

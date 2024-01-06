@@ -1,5 +1,4 @@
 import  {FC} from 'react';
-import {Link} from "react-router-dom";
 
 import Header from "../../components/Header/Header.tsx";
 import Footer from "../../components/Footer/Footer.tsx";
@@ -19,9 +18,8 @@ const CatalogPage:FC = () => {
                 <div className="container">
                     <div className={style.catalog}>
                         <PathLink/>
-                        <Link to={"/catalog/test"}>Test</Link>
                         {sliderPage.map(item =>
-                            <Slider key={item.id} array={item.array} path={item.path}/>
+                                <Slider key={item.id} array={item.array} path={item.path}/>
                         )}
                     </div>
                 </div>
