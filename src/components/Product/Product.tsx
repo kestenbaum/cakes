@@ -22,9 +22,6 @@ const Product:FC = () => {
                     <ProductDescription/>
                 </div>
             </div>
-            <div className={style.similar}>
-                <h3 className={style.similarTitle}>Похожие товары</h3>
-            </div>
         </div>
     );
 };
