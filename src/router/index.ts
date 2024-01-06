@@ -9,7 +9,7 @@ export enum RouterNames {
     CAKES_PAGE = '/catalog/cakes',
     SETS_PAGE = '/catalog/sets',
     NEWS_CAKES = '/catalog/news',
-    PRODUCT_PAGE = '/product'
+    PRODUCT_PAGE = '/catalog/:id'
 }
 
 export const PrivateRouter: AppRouter[] = [
