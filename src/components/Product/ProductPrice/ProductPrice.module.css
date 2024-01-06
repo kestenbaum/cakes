@@ -1,0 +1,14 @@
+.priceBlock {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #000;
+    font-family: Prata, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
