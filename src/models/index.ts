@@ -26,3 +26,7 @@ export interface IButtonContact extends
     title?: string
     store?: string
 }
+
+export interface IPruductTitle {
+    children: string
+}

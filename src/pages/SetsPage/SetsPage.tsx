@@ -7,6 +7,8 @@ import Footer from "../../components/Footer/Footer.tsx";
 
 import {data} from "../../data";
 import style from "./SetsPage.module.css"
+import Dropdown from "../../components/Filters/Dropdown/Dropdown.tsx";
+import FilterCakes from "../../components/Filters/FilterCakes/FilterCakes.tsx";
 
 const SetsPage:FC = () => {
     const path = window.location.pathname
@@ -18,17 +20,23 @@ const SetsPage:FC = () => {
                     <section className={style.page}>
                         <PathLink/>
                         <h1 className={style.title}>Наборы</h1>
-                        <div className={style.sets}>
-                            {data.sets.map(set => {
-                                return (
-                                    <Link
-                                        to={"/"}
-                                        key={set.id}
-                                        className={style.set}>
-                                        <img src={set.img} alt={set.description}/>
-                                    </Link>
-                                );
-                            })}
+                        <Dropdown/>
+                        <div className={style.block}>
+                            <div className={style.sets}>
+                                {data.sets.map(set => {
+                                    return (
+                                        <Link
+                                            to={"/"}
+                                            key={set.id}
+                                            className={style.set}>
+                                            <img src={set.img} alt={set.description}/>
+                                        </Link>
+                                    );
+                                })}
+                            </div>
+                            <div className={style.filter}>
+                                <FilterCakes/>
+                            </div>
                         </div>
                     </section>
                 </div>
