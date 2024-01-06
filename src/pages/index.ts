@@ -4,5 +4,14 @@ import Test from "./Test.tsx";
 import CakesPage from "./CakesPage/CakesPage.tsx";
 import SetsPage from "./SetsPage/SetsPage.tsx";
 import NewsCakes from "./NewsCakes/NewsCakes.tsx";
+import ProductPage from "./ProductPage/ProductPage.tsx";
 
-export {MainPage, CatalogPage, Test, CakesPage, SetsPage, NewsCakes}
+export {
+    MainPage,
+    CatalogPage,
+    Test,
+    CakesPage,
+    SetsPage,
+    NewsCakes,
+    ProductPage
+}
