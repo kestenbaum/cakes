@@ -5,6 +5,7 @@ import CakesPage from "./CakesPage/CakesPage.tsx";
 import SetsPage from "./SetsPage/SetsPage.tsx";
 import NewsCakes from "./NewsCakes/NewsCakes.tsx";
 import ProductPage from "./ProductPage/ProductPage.tsx";
+import BasketPage from "./BasketPage/BasketPage.tsx";
 
 export {
     MainPage,
@@ -13,5 +14,6 @@ export {
     CakesPage,
     SetsPage,
     NewsCakes,
-    ProductPage
+    ProductPage,
+    BasketPage
 }
