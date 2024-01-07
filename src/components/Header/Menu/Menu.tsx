@@ -1,6 +1,7 @@
 import {FC} from "react";
 
 import style from "./Menu.module.css"
+import {Link} from "react-router-dom";
 const Menu:FC = () => {
     return (
         <ul className={style.wrapper}>
@@ -19,12 +20,12 @@ const Menu:FC = () => {
                         </a>
                     </li>
                     <li className={style.item}>
-                        <a href="">
+                        <Link to={"/basket"}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="37" height="40" viewBox="0 0 37 40" fill="none">
                                 <path d="M11.4313 12.568V10.9786C11.4313 7.29186 14.1902 3.67069 17.6197 3.32659C18.5726 3.22595 19.5345 3.34089 20.4436 3.66403C21.3527 3.98717 22.1888 4.51133 22.8981 5.2028C23.6073 5.89426 24.1741 6.7377 24.5618 7.67884C24.9495 8.61997 25.1497 9.63795 25.1494 10.6673V12.9284M13.7177 36.0483H22.863C28.9904 36.0483 30.0878 33.4102 30.4079 30.1987L31.5511 20.3674C31.9626 16.3694 30.8957 13.1087 24.3872 13.1087H12.1934C5.685 13.1087 4.61804 16.3694 5.02958 20.3674L6.17275 30.1987C6.49284 33.4102 7.59028 36.0483 13.7177 36.0483Z" stroke="black" stroke-width="2.7436" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M23.6178 19.6626H23.6331M12.9482 19.6626H12.9604" stroke="black" stroke-width="2.7436" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                        </a>
+                        </Link>
                     </li>
 
         </ul>
