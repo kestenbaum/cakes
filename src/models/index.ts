@@ -30,3 +30,7 @@ export interface IButtonContact extends
 export interface IPruductTitle {
     children: string
 }
+
+export interface IPrice {
+    children: string | number
+}
