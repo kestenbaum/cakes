@@ -9,8 +9,10 @@ import Price from "../../components/Price/Price.tsx";
 import img from "../../assets/new__cakes/news1.png"
 
 import style from "./Basket.module.css"
+import {Link} from "react-router-dom";
 
 //Todo refactor code
+//Todo refactor link to payment
 const BasketPage:FC = () => {
     const path = window.location.pathname
     return (
@@ -136,7 +138,9 @@ const BasketPage:FC = () => {
                                    <Price children={1999}/>
                                 </div>
                                 <Button>У вас есть промокод?</Button>
-                                <Button>Продолжить</Button>
+                                <Button>
+                                    <Link to={"/basket/payment"}>Продолжить</Link>
+                                </Button>
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,8 @@ import SetsPage from "./SetsPage/SetsPage.tsx";
 import NewsCakes from "./NewsCakes/NewsCakes.tsx";
 import ProductPage from "./ProductPage/ProductPage.tsx";
 import BasketPage from "./BasketPage/BasketPage.tsx";
+import FavoritesPage from "./FavoritesPage/FavoritesPage.tsx";
+import PaymentPage from "./PaymentPage/PaymentPage.tsx";
 
 export {
     MainPage,
@@ -15,5 +17,7 @@ export {
     SetsPage,
     NewsCakes,
     ProductPage,
-    BasketPage
+    BasketPage,
+    FavoritesPage,
+    PaymentPage
 }

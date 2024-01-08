@@ -1,4 +1,4 @@
-import React from "react";
+import React, {ChangeEvent, InputHTMLAttributes} from "react";
 
 export interface IPathElement {
     children: string
@@ -33,4 +33,11 @@ export interface IPruductTitle {
 
 export interface IPrice {
     children: string | number
+}
+
+export interface IInput {
+    value: string;
+    onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+    placeholder?: string;
+    children?: string;
 }
