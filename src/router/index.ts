@@ -9,7 +9,7 @@ import {
     NewsCakes,
     ProductPage,
     BasketPage,
-    FavoritesPage
+    FavoritesPage, PaymentPage
 } from "../pages"
 
 export enum RouterNames {
@@ -21,7 +21,8 @@ export enum RouterNames {
     NEWS_CAKES = '/catalog/news',
     PRODUCT_PAGE = '/catalog/:id',
     BASKET_PAGE = '/basket',
-    FAVORITE_PAGE = '/favorite'
+    FAVORITE_PAGE = '/favorite',
+    PAYMENT_PAGE = '/basket/payment'
 }
 
 export const PrivateRouter: AppRouter[] = [
@@ -31,7 +32,8 @@ export const PrivateRouter: AppRouter[] = [
     {path: RouterNames.CAKES_PAGE, component: CakesPage, title: "Торты"},
     {path: RouterNames.SETS_PAGE, component: SetsPage, title: "Наборы"},
     {path: RouterNames.NEWS_CAKES, component: NewsCakes, title: "Новинки"},
-    {path: RouterNames.PRODUCT_PAGE, component: ProductPage, title: "Product"},
-    {path: RouterNames.BASKET_PAGE, component: BasketPage, title: "Basket"},
+    {path: RouterNames.PRODUCT_PAGE, component: ProductPage, title: "Товар"},
+    {path: RouterNames.BASKET_PAGE, component: BasketPage, title: "Корзина"},
     {path: RouterNames.FAVORITE_PAGE, component: FavoritesPage, title: "Избраное"},
+    {path: RouterNames.PAYMENT_PAGE, component: PaymentPage, title: "Оплата"},
 ]
