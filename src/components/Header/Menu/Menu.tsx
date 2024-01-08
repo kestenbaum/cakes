@@ -6,11 +6,11 @@ const Menu:FC = () => {
     return (
         <ul className={style.wrapper}>
                     <li className={style.item}>
-                        <a href="">
+                        <Link to={"/favorite"}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
                                 <path d="M20.2262 32.735C19.661 32.9392 18.73 32.9392 18.1647 32.735C13.3434 31.0499 2.57031 24.0202 2.57031 12.1056C2.57031 6.84607 6.70997 2.59082 11.8139 2.59082C14.8397 2.59082 17.5163 4.08867 19.1955 6.40352C20.0496 5.22205 21.1622 4.26181 22.444 3.59973C23.7258 2.93764 25.1413 2.59211 26.577 2.59082C31.6809 2.59082 35.8206 6.84607 35.8206 12.1056C35.8206 24.0202 25.0475 31.0499 20.2262 32.735Z" stroke="black" stroke-width="2.59091" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                        </a>
+                        </Link>
                     </li>
                     <li className={style.item}>
                         <a href="">
