@@ -7,6 +7,7 @@ import NewsCakes from "./NewsCakes/NewsCakes.tsx";
 import ProductPage from "./ProductPage/ProductPage.tsx";
 import BasketPage from "./BasketPage/BasketPage.tsx";
 import FavoritesPage from "./FavoritesPage/FavoritesPage.tsx";
+import PaymentPage from "./PaymentPage/PaymentPage.tsx";
 
 export {
     MainPage,
@@ -17,5 +18,6 @@ export {
     NewsCakes,
     ProductPage,
     BasketPage,
-    FavoritesPage
+    FavoritesPage,
+    PaymentPage
 }
